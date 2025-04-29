@@ -1,9 +1,5 @@
 # Personalized AI Context Pipeline (Experimental Workflow)
 
-
-![alt text](banner.jpg)
-
-
 **Author**: Daniel Rosehill  
 **Creation Date**: April 29, 2025  
 **Status**: Draft / Experimental Design
@@ -19,28 +15,6 @@ It provides a novel implementation focused on the **proactive creation and struc
 While much recent development has centered around context and memory systems, particularly **retrieval augmented generation (RAG)** drawing from large enterprise data stores, this project explores how **more nuanced, granular, user-generated context** can be collected and organized.
 
 This document spells out the technical details for building such a system, including the workflow and supporting mechanisms required to make proactive context capture operational.
- 
- 
-### Context Capture Pipeline
-
-```mermaid
-flowchart LR
-    A(User records voice note) --> B(Webhook triggered)
-    B --> C(Speech-to-text transcription)
-    C --> D(Summarization / rewriting assistant)
-    D --> E(Embed streamlined context into vector database)
-```
-
----
-
-### Context Usage Pipeline
-
-```mermaid
-flowchart LR
-    A(Vector database with context data) --> B(Personalized AI assistant)
-    B --> C(User interactions using personalized context)
-```
-
  
 
 ## Methodology
